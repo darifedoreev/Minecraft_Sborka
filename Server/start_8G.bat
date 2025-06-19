@@ -1,6 +1,0 @@
-@echo off
-java -Xms4G -Xmx8G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=600000 ^
-     -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC ^
-     -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M ^
-     -jar forge-1.16.5-36.2.34.jar nogui
-pause
